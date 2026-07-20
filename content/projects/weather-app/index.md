@@ -21,6 +21,7 @@ links:
   - type: live
     url: https://weathernow-demo.netlify.app
     label: Demo
+page_links: {}
 featured: false
 status: "Live"
 role: "Solo Developer"
