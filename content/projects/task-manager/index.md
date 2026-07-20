@@ -21,6 +21,7 @@ links:
   - type: live
     url: https://taskflow-demo.example.com
     label: Demo
+page_links: {}
 featured: true
 status: "Live"
 role: "Solo Developer"
