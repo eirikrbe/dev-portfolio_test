@@ -54,16 +54,6 @@ sections:
       filters:
         folders:
           - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
-      default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
       #   enable: false  # Set to false to explicitly hide
@@ -191,29 +181,6 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Recent Blog Posts
-  - block: collection
-    id: blog
-    content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
-      filters:
-        folders:
-          - blog
-        exclude_featured: false
-      count: 3
-      order: desc
-    design:
-      view: card
-      columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
-  
   # Contact Section
   - block: contact-info
     id: contact
@@ -239,13 +206,10 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm looking for **software engineering** opportunities in New Zealand — backend work,
+        QA engineering, or anything that bridges hardware and software.
         
-        Let's connect and discuss how I can help your team.
-      button:
-        text: 'Download Resume'
-        url: uploads/resume.pdf
-        new_tab: true
+        Let's connect and talk about how I can help your team.
     design:
       card:
         # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient
