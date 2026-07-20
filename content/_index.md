@@ -18,10 +18,10 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "reliable software for telecoms"
+          - "data-driven tools"
+          - "testable Python services"
+          - "RF optimisation tools"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -86,44 +86,44 @@ sections:
       categories:
         - name: Languages
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+            - name: C / C++
+              icon: devicon/cplusplus
+            - name: SQL
+              icon: devicon/postgresql
+            - name: MATLAB
+              icon: devicon/matlab
+        - name: Web & Backend
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
-          items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
+            - name: Flask
+              icon: devicon/python
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: SQLite
+              icon: devicon/sqlite
+            - name: psycopg3
+              icon: brands/python
+        - name: Telecom & Tools
+          items:
+            - name: RF optimisation
+              icon: solid/signal
+            - name: NetAct
+              icon: solid/server
+            - name: PuTTY
+              icon: solid/terminal
+            - name: KPI analysis
+              icon: solid/chart-line
+        - name: DevOps & Office
           items:
             - name: Docker
               icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
+            - name: Git
               icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Excel
+              icon: brands/microsoft
+            - name: Google Workspace
+              icon: brands/google
     design:
       style: grid
       show_levels: false
@@ -141,42 +141,46 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
+        - title: Quality Assurance Engineer
+          company: Claro (Colombia)
           company_url: ''
           company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
-          date_end: ''
+          location: Colombia
+          date_start: '2019-10-01'
+          date_end: '2022-11-30'
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
+            * Coordinated quality assurance for mobile network projects across Nokia, Ericsson and Huawei
+            * Designed and executed test cases in test and production environments
+            * Investigated faults, analysed network data and produced operational reports
+        - title: Network Engineer
+          company: Nokia Networks (Colombia)
           company_url: ''
           company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          location: Colombia
+          date_start: '2017-03-01'
+          date_end: '2019-10-01'
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
+            * Roles included QA-NOC Engineer, RF Junior Engineer, and RAN Back Office Engineer
+            * Monitored GSM, UMTS and LTE network performance and KPIs
+            * Supported LTE second-carrier projects and RF optimisation tasks
+        - title: Duty Manager
+          company: Cāntīng by Nic Watt, Auckland
           company_url: ''
           company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
+          location: Auckland, NZ
+          date_start: '2025-08-01'
+          date_end: '2026-06-01'
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * LCQ-certified licence controller; ran shifts, performed cash reconciliation and end-of-day reporting
+        - title: Front of House
+          company: CBK, Rotorua
+          company_url: ''
+          company_logo: ''
+          location: Rotorua, NZ
+          date_start: '2023-06-01'
+          date_end: '2025-06-01'
+          description: |2-
+            * Server, barman and barista duties; trained new staff and managed service sections during peak periods
     design:
       columns: '1'
       background:
@@ -218,7 +222,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: ericfabian10@gmail.com
       autolink: true
     design:
       columns: '1'
