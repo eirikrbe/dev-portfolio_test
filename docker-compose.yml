@@ -1,0 +1,39 @@
+services:
+  # Production build
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/index.html"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 256M
+        reservations:
+          cpus: "0.25"
+          memory: 128M
+
+  # Development service (optional - uncomment to use)
+  # dev:
+  #   image: node:20-alpine
+  #   working_dir: /app
+  #   volumes:
+  #     - .:/app
+  #     - /app/node_modules
+  #   ports:
+  #     - "1313:1313"
+  #   environment:
+  #     - NODE_ENV=development
+  #   command: sh -c "apk add --no-cache hugo=0.162.0-r0 && corepack enable pnpm && pnpm install && hugo server --disableFastRender"
+  #   restart: unless-stopped

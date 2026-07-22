@@ -1,0 +1,27 @@
+# Dependencies and build artifacts
+node_modules/
+dist/
+public/
+resources/
+.hugo_build.lock
+
+# Development
+.devcontainer/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git and CI
+.git/
+.github/
+.gitignore
+.gitmodules
+
+# IDE
+.claude/
+*.code-workspace
+
+# OS
+Thumbs.db
